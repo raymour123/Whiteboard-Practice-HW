@@ -1,0 +1,39 @@
+public boolean cigarParty(int cigars, boolean isWeekend) {
+  if (cigars && isWeekend >= 40){
+    return true;
+  }
+    else if (cigars >= 40 && cigars <= 60);
+        return true;
+      
+    }
+    return false;
+}
+
+public String doubleChar(String str) {
+         String out = "";
+         for(int i = 0; i < str.length(); i++){
+             out = out + str.charAt(i);
+             out = out + str.charAt(i);
+         }
+         return out;
+     }
+
+     **I needed to consult google for this one
+
+
+
+     public int[] rotateLeft3(int[] nums) {
+        int[] umsn = new int[3];
+         for (int i = 1; i < nums.length; i++){
+             umsn[i-1] = nums[i];
+         }
+         umsn[2] = nums[0];
+         return  umsn;
+     }
+ 
+ }
+
+ I also needed to get help on the one above.
+ I understand how they work after the fact, but have a tough time coming up with the solution on my own. 
+ Still working on this.
+
